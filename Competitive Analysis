@@ -1,0 +1,43 @@
+Competitive Analysis
+
+1) Basic Tower Defense(http://www.pygame.org/project-Basic+TD-1337-.html)
+	- Desirable features
+		* Clean, organized map layout
+			Basic and minimal, don't want to overwhelm user in the beginning when start playing. The layout is simple and intuitive.
+		* Intuitive interface, highlight grid box and placing tower there
+			The small animation of highlighting the cell to place tower in makes the game a little more engaging, as well as easy to play for user. 
+		* Side bar to show info, i.e. player's money, cost of towers, etc.
+			Organized information on a sidebar to the right of battle screen. Informs user of his resources, possible upgrades, etc. Need this feature in my game.
+	- Anti-features
+		* Speed of game too fast, too difficult
+			Fix this by adjusting FPS Clock in pygame, make sure there is room for change in enemy's speed so the levels get progressively more difficult
+		* Graphics are boring, tacky color scheme 
+			Unattractive to play with, green blocks of grass and brown path is not aesthetically pleasing, fix this by creating coherent graphics. Will use photoshop to render my own blocks for the game, make sure that it is nice to look at.
+		* Only 2 maps available for the entire game, no room for development
+			Even though enemies become stronger and can upgrade towers, the lack of change of maps makes the game somewhat boring and unmotivating. There is no "goal" to reach, since the game just keeps going on and the environment is always the same. Fix this by using different maps for different levels, and motivate user to continue playing game by informing how many levels remain.
+
+2) Wesnoth Tower Defense(http://www.pygame.org/project-Wesnoth+Tower+Defense-2790-.html)
+	- Desirable features
+		* Neat sidebar on right, showing possible towers, dynamic updating info in info tab
+			I like how when the mouse hovers over a tower, new info shows up in the side bar. This could be inconvenient however because each time I move the mouse new info shows up so it is hard to compare info. Change this to a more static layout by listing info next to tower so it is even easier to read info.
+		* Detailed graphics, engaging to play
+			The graphics are very sophisticated, keep player focused in game and watching the tower/ enemies. 
+		* Engaging animation, towers attacking enemies and enemies' live bars decreasing, showing radius of tower when hover over it
+			Small animation when a move is detected from player. When player hovers over a tower on the map it shows the radius of the tower, how far it can attack. Also shows life bar/health points of enemies, allows user to know his progress in eliminating a wave of enemies
+	- Anti-features
+		* Inconvenient to navigate map
+			The entire map is not shown at once, have to move mouse around to see other parts of map. This makes it inconvenient because player sometimes cannot tell where is the start and end of map. I will show my entire map within 1 screen.
+		* Uninteresting map, only 1 layout
+			While everything else works out almost perfectly, the map is static so player could only add towers and upgrade them on a map, cannot upgrade to more complicated and fun maps. I will have different maps available at different levels to keep it interesting.
+ 
+ 3) Bloons Tower Defense 4(http://www.agame.com/game/bloons-td-4)
+ 	-Desirable features
+ 		* Drag and drop towers on map with radius showing how far can tower attack
+ 			When player selects tower from sidebar and places on map, that movement is accompanied with a circle around tower showing how far can tower attack.
+ 		* Sound effects when an enemy is eliminated
+ 			A shooting sound is played when an enemy is being attacked, that keeps the game fun.
+ 	-Anti-features
+ 		* Pixelated graphics
+ 			Especially outline of map, the lines are fuzzy, leading to poor quality visual. Fix this by using "anti-aliasing" feature of pygame when adding an image
+ 		* Maps are all similar, no higher level maps
+ 			Similar with previous games, though there are different maps, one is not easier/more difficult than others. They just look different, so unmotivating for players to keep playing to explore different maps. Change by having different maps at different levels.

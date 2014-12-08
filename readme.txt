@@ -1,0 +1,5 @@
+Minimalist Tower Defense
+
+This term project is a tower defense game. It has 4 levels, with each level having a different map and different amount of enemies. As you level up, the maps become more complex and you have to defeat more enemies. There is easy/hard mode at the beginning of your game play tailored for beginners and pros. Easy mode means more lives and fewer enemies, hard mode means fewer lives and more enemies. There is also a map building function that allows you to make your own map. Use this feature by selecting map builder from home menu, draw your map, and press done and play to return to home screen. When you press start from home screen now, it will be the map you just built.
+
+You can play it by opening main.py, run it and call the function "main()". A new window will pop up and you can start playing. This game uses pygame, you can download this library by going to http://www.pygame.org/download.shtml and selecting the latest version for your computer. 

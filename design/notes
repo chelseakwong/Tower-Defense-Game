@@ -1,0 +1,37 @@
+11/FIX MISSILE ENDLESS DONE
+
+shoot according to radius
+	**loop path work DONE
+	**enemy find path by given map DONE
+	**make it faster, check all at same time DONE
+	**make bullets disappear after radius, not infinite range DONE
+	**rotating bullets, follow target DONE
+	**different types of bullets, blow up targets in certain range, etc. DONE
+
+	*** MAKE MISSILES DISAPPEAR with timer, radius DONE
+	**level of difficulty: easy and hard DONE
+	**make bullets slower each level so harder DONE
+	
+	**restart DONE
+	**pause DONE
+	**high score DONE
+	**win screen DONE
+	**instructions first time playing DONE
+
+make more tower types
+	done
+
+make instruction page
+	done
+
+user interface, menu
+	fix hover effect when tower clicked
+	white bar at bottom- done
+	show info about tower when hovered over- done
+	show money -done
+	show lives -done
+	show level -done
+
+
+level editor(map)
+	work play function-done

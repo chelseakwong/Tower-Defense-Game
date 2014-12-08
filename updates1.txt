@@ -1,0 +1,6 @@
+** Organized code into several different files.
+** Coded algorithms to calculate relative distance of towers from each other, and distance of towers from start and end points of map. Could use this for offense mode to generate "machine-learning" map, determine where to place towers.
+** Made Enemy class, able to navigate on path
+** Created sprite groups for tower bullets and marching enemies, enemies would die if shot
+** Created makeMap function, click on map to create path and can return the map list.
+** Created levels within gameplay, enemies speed up after each wave/level.

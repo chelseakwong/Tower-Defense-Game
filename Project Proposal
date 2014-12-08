@@ -1,0 +1,35 @@
+Project Proposal
+Tower De/Off
+
+Road map: **subject to modification, some features/parts might take longer than aniticpated
+
+Week 1) 
+
+Defense: 1) Set up basic user interface, click and place tower, create level 1 path
+
+Week 2) 
+
+Defense: 1) make towers able to attack enemies
+		 2) make waves of enemies, able to attack towers
+		 3) create fractal algorithm for generating next level maps
+		 4) create menu bar to display info
+		 5) improve graphics
+
+***if have time:
+Offense: 1) set up interface for assembling army
+		 2) make level 1 with single path functional: able to launch enemies
+
+Week 3)
+
+Offense: 1) Create algorithm for analyzing user's past defense techniques and using that in map
+		 2) Create home screen, allow user to play defense/offense
+
+For my term project I aim to create Tower Defense/Offense. It will be a game that is built upon the classic tower defense game, but allowing the user to play offense as well. 
+
+The defense part of the game would be similar to the classic tower defense mode, with different types of fundamental towers available for the user to purchase with his in-game money, and once purchased the user could also spend his money on upgrading the towers. Upgrades include increasing speed, attack points, distance, health points. The map for each level changes like levels of a fractal. The first level would be a straight line, second level one line perpendicular to another, third level adding on a third line perpendicular to the last additional line from second level, etc. There would be a designated start and finish box on the map. When the game begins, the enemy starts marching towards home base ("end"), and towers would attack enemies, enemies could also attack towers. For every enemy that reached the homebase, the player's chances, or "lives", decrease by 1. The player earns money by defeating enemies, the more powerful enemies yield more money. A level has 5 waves of enemies, once all 5 waves of enemies are defeated by user, user can move onto next level with a new map. The enemies would be designed by me.
+
+********Might not pursue offense if not enough time***********
+The offense part of the game is what is interesting. Instead of locating towers strategically and defeating enemies, in the offense mode the player would play the "enemy", he would be able to build his army to invade home base. Because the game is set up such that the offense could attack the towers, this game mode is feasible. Here, the player would first be led to a "store" page, where he could assemble his army. Similar to the towers, the player could purchase different roles or "characters" for his army. The different roles would be swordsman, bowman, medic, mage. These roles are also capable of being upgraded, and their speed, attack points, health points, and distance(just like towers) could be increased. Once the player has assembeld his army, he would be led to the battle screen, where he launches his army as a wave. Every time the user's army fails to reach the home base, meaning his army has been destroyed by the towers, his chances or "lives" decrease by 1. When player succeeds in reaching the homebase 5 times in a level, he can move on to the next map. 
+
+To generate a map for the user to play offense, I want to implement an algorithm that allows the computer to analyze, or store previous tower locations, so this information could be used to generate future tower maps. Since each map is only made up of straightlines, the algorithm could easily look at the location of towers relative to the marching path of enemies and duplicate that for a new map. Each time a defense map is generated there would be a limit on resources such that it is reasonable for game play. 
+

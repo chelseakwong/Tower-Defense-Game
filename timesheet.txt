@@ -1,0 +1,21 @@
+11/16: 3 hours-- Drafting personal proposal, research for competitive analysis, and drawing storyboard. Installed Panda3D and tried to make it work with existent installed Python, but couldn't. Going to office hours tomorrow.
+
+11/19: 6 hours-- Decided to do pygame instead, create tower defense/offense. Spent time learning pygame, creating basic user interface. Able to create towers, click and drop towers, make map. Wrote personal proposal and competitive analysis
+
+11/22: 4 hours-- Decided to make map manually instead of doing computer generation. Made makemap.py so can use for level editor. Used makeMap to create level 1 and 2 maps. Created enemy class and able to make it go along path.
+
+11/24: 5 hours-- Had issues with using variables in different files, spent time debugging and figuring out where to pass variables so main.py would work. Also created sprite groups so bullets and enemies could interact. Made algorithms for offense mode, figure out where to place towers on map for offense gameplay, quasi-machine-learning.
+
+11/26: 2 hours-- Fixed enemy path, worked on fixing enemy levels so speed would increase. Debugged map issues where enemy marching on path would crash randomly.
+
+11/27: 6 hours-- Adjusted enemy level and difficulty. Improved user interface. Created graphics for layout. 
+
+11/29: 8 hours-- Worked on level editor and integrating it to main function. Created more tower types, polished interface more.
+
+11/30: 5 hours-- Made more graphics for tower types, menu bar, level editor. Debugged level editor. Created start,pauses,restart,home buttons for menu in main function.
+
+12/1: 5 hours-- Made enemies able to walk through looped paths. Made towers all able to check at same time. Made bullets disappear after certain range. Made missile type towers.
+
+12/2: 5 hours-- added instruction page in first time game play. debugged missile problem where wouldn't disappear. Made different levels of difficulty.
+
+12/3: 5 hours-- writing design document. making video.
